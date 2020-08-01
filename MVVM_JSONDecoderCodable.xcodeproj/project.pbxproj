@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74620D1924D5E560000D71F9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74620D1724D5E560000D71F9 /* UserCell.swift */; };
+		74620D1A24D5E560000D71F9 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74620D1824D5E560000D71F9 /* UserCell.xib */; };
+		74C6355724D54CB3005028F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6355624D54CB3005028F4 /* AppDelegate.swift */; };
+		74C6355924D54CB3005028F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6355824D54CB3005028F4 /* SceneDelegate.swift */; };
+		74C6355B24D54CB3005028F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6355A24D54CB3005028F4 /* ViewController.swift */; };
+		74C6355E24D54CB3005028F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C6355C24D54CB3005028F4 /* Main.storyboard */; };
+		74C6356124D54CB3005028F4 /* MVVM_JSONDecoderCodable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74C6355F24D54CB3005028F4 /* MVVM_JSONDecoderCodable.xcdatamodeld */; };
+		74C6356324D54CB4005028F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C6356224D54CB4005028F4 /* Assets.xcassets */; };
+		74C6356624D54CB4005028F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C6356424D54CB4005028F4 /* LaunchScreen.storyboard */; };
+		74C6357124D54CB4005028F4 /* MVVM_JSONDecoderCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6357024D54CB4005028F4 /* MVVM_JSONDecoderCodableTests.swift */; };
+		74C6358124D5501B005028F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6357E24D5501B005028F4 /* User.swift */; };
+		74C6358324D5501B005028F4 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6358024D5501B005028F4 /* Media.swift */; };
+		74C6358524D5504F005028F4 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6358424D5504F005028F4 /* UserViewModel.swift */; };
+		74C6358724D550F6005028F4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6358624D550F6005028F4 /* UserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74C6356D24D54CB4005028F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C6354B24D54CB3005028F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C6355224D54CB3005028F4;
+			remoteInfo = MVVM_JSONDecoderCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74620D1724D5E560000D71F9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		74620D1824D5E560000D71F9 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		74C6355324D54CB3005028F4 /* MVVM_JSONDecoderCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_JSONDecoderCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C6355624D54CB3005028F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74C6355824D54CB3005028F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74C6355A24D54CB3005028F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74C6355D24D54CB3005028F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74C6356024D54CB3005028F4 /* MVVM_JSONDecoderCodable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVM_JSONDecoderCodable.xcdatamodel; sourceTree = "<group>"; };
+		74C6356224D54CB4005028F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74C6356524D54CB4005028F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74C6356724D54CB4005028F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C6356C24D54CB4005028F4 /* MVVM_JSONDecoderCodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM_JSONDecoderCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C6357024D54CB4005028F4 /* MVVM_JSONDecoderCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_JSONDecoderCodableTests.swift; sourceTree = "<group>"; };
+		74C6357224D54CB4005028F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C6357E24D5501B005028F4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		74C6358024D5501B005028F4 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		74C6358424D5504F005028F4 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		74C6358624D550F6005028F4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C6355024D54CB3005028F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C6356924D54CB4005028F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74C6354A24D54CB3005028F4 = {
+			isa = PBXGroup;
+			children = (
+				74C6355524D54CB3005028F4 /* MVVM_JSONDecoderCodable */,
+				74C6356F24D54CB4005028F4 /* MVVM_JSONDecoderCodableTests */,
+				74C6355424D54CB3005028F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74C6355424D54CB3005028F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C6355324D54CB3005028F4 /* MVVM_JSONDecoderCodable.app */,
+				74C6356C24D54CB4005028F4 /* MVVM_JSONDecoderCodableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C6355524D54CB3005028F4 /* MVVM_JSONDecoderCodable */ = {
+			isa = PBXGroup;
+			children = (
+				74C6357D24D54E93005028F4 /* View */,
+				74C6357C24D54E8B005028F4 /* ViewModel */,
+				74C6357B24D54E83005028F4 /* Model */,
+				74C6355624D54CB3005028F4 /* AppDelegate.swift */,
+				74C6355824D54CB3005028F4 /* SceneDelegate.swift */,
+				74C6355C24D54CB3005028F4 /* Main.storyboard */,
+				74C6356224D54CB4005028F4 /* Assets.xcassets */,
+				74C6356424D54CB4005028F4 /* LaunchScreen.storyboard */,
+				74C6356724D54CB4005028F4 /* Info.plist */,
+				74C6355F24D54CB3005028F4 /* MVVM_JSONDecoderCodable.xcdatamodeld */,
+			);
+			path = MVVM_JSONDecoderCodable;
+			sourceTree = "<group>";
+		};
+		74C6356F24D54CB4005028F4 /* MVVM_JSONDecoderCodableTests */ = {
+			isa = PBXGroup;
+			children = (
+				74C6357024D54CB4005028F4 /* MVVM_JSONDecoderCodableTests.swift */,
+				74C6357224D54CB4005028F4 /* Info.plist */,
+			);
+			path = MVVM_JSONDecoderCodableTests;
+			sourceTree = "<group>";
+		};
+		74C6357B24D54E83005028F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74C6358024D5501B005028F4 /* Media.swift */,
+				74C6357E24D5501B005028F4 /* User.swift */,
+				74C6358624D550F6005028F4 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74C6357C24D54E8B005028F4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74C6358424D5504F005028F4 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74C6357D24D54E93005028F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74C6355A24D54CB3005028F4 /* ViewController.swift */,
+				74620D1724D5E560000D71F9 /* UserCell.swift */,
+				74620D1824D5E560000D71F9 /* UserCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74C6355224D54CB3005028F4 /* MVVM_JSONDecoderCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C6357524D54CB4005028F4 /* Build configuration list for PBXNativeTarget "MVVM_JSONDecoderCodable" */;
+			buildPhases = (
+				74C6354F24D54CB3005028F4 /* Sources */,
+				74C6355024D54CB3005028F4 /* Frameworks */,
+				74C6355124D54CB3005028F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVM_JSONDecoderCodable;
+			productName = MVVM_JSONDecoderCodable;
+			productReference = 74C6355324D54CB3005028F4 /* MVVM_JSONDecoderCodable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74C6356B24D54CB4005028F4 /* MVVM_JSONDecoderCodableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C6357824D54CB4005028F4 /* Build configuration list for PBXNativeTarget "MVVM_JSONDecoderCodableTests" */;
+			buildPhases = (
+				74C6356824D54CB4005028F4 /* Sources */,
+				74C6356924D54CB4005028F4 /* Frameworks */,
+				74C6356A24D54CB4005028F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C6356E24D54CB4005028F4 /* PBXTargetDependency */,
+			);
+			name = MVVM_JSONDecoderCodableTests;
+			productName = MVVM_JSONDecoderCodableTests;
+			productReference = 74C6356C24D54CB4005028F4 /* MVVM_JSONDecoderCodableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C6354B24D54CB3005028F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Apurva Gaikwad";
+				TargetAttributes = {
+					74C6355224D54CB3005028F4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					74C6356B24D54CB4005028F4 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 74C6355224D54CB3005028F4;
+					};
+				};
+			};
+			buildConfigurationList = 74C6354E24D54CB3005028F4 /* Build configuration list for PBXProject "MVVM_JSONDecoderCodable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74C6354A24D54CB3005028F4;
+			productRefGroup = 74C6355424D54CB3005028F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C6355224D54CB3005028F4 /* MVVM_JSONDecoderCodable */,
+				74C6356B24D54CB4005028F4 /* MVVM_JSONDecoderCodableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C6355124D54CB3005028F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74620D1A24D5E560000D71F9 /* UserCell.xib in Resources */,
+				74C6356624D54CB4005028F4 /* LaunchScreen.storyboard in Resources */,
+				74C6356324D54CB4005028F4 /* Assets.xcassets in Resources */,
+				74C6355E24D54CB3005028F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C6356A24D54CB4005028F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C6354F24D54CB3005028F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C6358524D5504F005028F4 /* UserViewModel.swift in Sources */,
+				74C6355B24D54CB3005028F4 /* ViewController.swift in Sources */,
+				74C6358324D5501B005028F4 /* Media.swift in Sources */,
+				74C6355724D54CB3005028F4 /* AppDelegate.swift in Sources */,
+				74C6355924D54CB3005028F4 /* SceneDelegate.swift in Sources */,
+				74620D1924D5E560000D71F9 /* UserCell.swift in Sources */,
+				74C6358124D5501B005028F4 /* User.swift in Sources */,
+				74C6358724D550F6005028F4 /* UserModel.swift in Sources */,
+				74C6356124D54CB3005028F4 /* MVVM_JSONDecoderCodable.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C6356824D54CB4005028F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C6357124D54CB4005028F4 /* MVVM_JSONDecoderCodableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74C6356E24D54CB4005028F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C6355224D54CB3005028F4 /* MVVM_JSONDecoderCodable */;
+			targetProxy = 74C6356D24D54CB4005028F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74C6355C24D54CB3005028F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C6355D24D54CB3005028F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74C6356424D54CB4005028F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C6356524D54CB4005028F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74C6357324D54CB4005028F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74C6357424D54CB4005028F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74C6357624D54CB4005028F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVM_JSONDecoderCodable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globallogic.MVVM-JSONDecoderCodable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74C6357724D54CB4005028F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVM_JSONDecoderCodable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globallogic.MVVM-JSONDecoderCodable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74C6357924D54CB4005028F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVM_JSONDecoderCodableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globallogic.MVVM-JSONDecoderCodableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM_JSONDecoderCodable.app/MVVM_JSONDecoderCodable";
+			};
+			name = Debug;
+		};
+		74C6357A24D54CB4005028F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVM_JSONDecoderCodableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globallogic.MVVM-JSONDecoderCodableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM_JSONDecoderCodable.app/MVVM_JSONDecoderCodable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C6354E24D54CB3005028F4 /* Build configuration list for PBXProject "MVVM_JSONDecoderCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C6357324D54CB4005028F4 /* Debug */,
+				74C6357424D54CB4005028F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C6357524D54CB4005028F4 /* Build configuration list for PBXNativeTarget "MVVM_JSONDecoderCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C6357624D54CB4005028F4 /* Debug */,
+				74C6357724D54CB4005028F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C6357824D54CB4005028F4 /* Build configuration list for PBXNativeTarget "MVVM_JSONDecoderCodableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C6357924D54CB4005028F4 /* Debug */,
+				74C6357A24D54CB4005028F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74C6355F24D54CB3005028F4 /* MVVM_JSONDecoderCodable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74C6356024D54CB3005028F4 /* MVVM_JSONDecoderCodable.xcdatamodel */,
+			);
+			currentVersion = 74C6356024D54CB3005028F4 /* MVVM_JSONDecoderCodable.xcdatamodel */;
+			path = MVVM_JSONDecoderCodable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74C6354B24D54CB3005028F4 /* Project object */;
+}
